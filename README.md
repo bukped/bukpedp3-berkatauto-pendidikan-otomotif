@@ -187,5 +187,3 @@ Sebagai bahasa yang relatif baru, ada adalah ekspektasi rendah terhadap fitur at
 Meskipun komunitas Go terus berkembang, ukurannya masih lebih kecil dibandingkan komunitas yang lebih mapan bahasa pemrograman. Sehingga mendapatkan bantuan atau dukungan mungkin memerlukan lebih banyak usaha.
 4.	Kurangnya  fitur yang diharapkan
 Beberapa fitur digunakan oleh pengembang yang akrab dengan bahasa tersebut Harapkan pemrograman lain kurang tersedia atau bahkan sedang dikembangkan di Go.
-
-
