@@ -13,6 +13,7 @@ Buku ini disajikan dalam setiap bab yang berisi langkah-langkah untuk pembaca pe
 Dalam buku ini kami menyadari masih terdapat banyak kekurangan untuk itu kritik dan saran yang membangun demi penyempurnaan buku ini sangat diharapkan. Dan semoga buku ini dapat memberkikan manfaat bagi semua yang membacanya. Akhir kata, kamu mengucapkan terima kasih atas apresiasinya kepada berbagai pihak yang turut berpartisipasi didlam penyusunan dan penyempurnaan buku ini. 
 
 Bandung, 01 Desember 2023
+
 Penulis 
 
 
@@ -59,3 +60,44 @@ Berfungsi sebagai panduan implementasi yang membantu pengembang untuk memahami d
 
 2.	Dukungan Pengguna Akhir 
 Berfungsi sebagai sumber informasi untuk pengguna akhir aplikasi. Ini memberikan pemahaman yang lebih baik tentang cara menggunakan aplikasi secara efektif.
+
+
+### C.	MANFAAT DOKUMENTASI 
+
+Dokumentasi menjadi sumber pengetahuan yang berharga bagi pembelajar, praktisi, pengembang, dan industri otomotif secara keseluruhan. Hal ini memungkinkan akses yang lebih baik terhadap informasi teknis terkait penerapan teknologi terkini dalam dunia otomotif. 
+
+Dokumentasi ini berperan dalam mendorong perkembangan industri dengan memberikan wawasan mendalam tentang bagaimana teknologi dapat dioptimalkan dalam aplikasi pendidikan. Dokumentasi tersebut dapat menginspirasi inovasi baru, pengembangan produk yang lebih canggih, dan juga memperluas cakupan pengetahuan bagi komunitas pengembang dan praktisi otomotif.
+
+Berikut ini beberapa manfaat dari dokumentasi :
+
+1.	Menjadi sumber Pembelajaran
+Memberikan akses kepada informasi yang komprehensif tentang aplikasi teknologi dalam industri otomotif. Hal ini membantu mereka dalam memahami konsep-konsep penting dan perkembangan terbaru dalam bidang ini. Menjadi sumber bahan ajar yang berharga dalam menyampaikan materi tentang integrasi teknologi dalam pembelajaran otomotif. Dengan dokumentasi ini, pendidik dapat menyajikan informasi yang relevan dan terkini.
+
+2.	Idustri Otomotif Secara Umum
+Mendorong inovasi dan perkembangan dalam industri otomotif dengan memanfaatkan teknologi terbaru. Dokumentasi ini dapat menginspirasi pengembangan produk dan layanan baru yang lebih canggih dan efisien.
+
+
+
+## BAB II
+## PENGENALAN OTOMOTIF
+
+### A.	KONSEP DASAR OTOMOTIF
+
+Otomotif mencakup serangkaian konsep dasar yang penting untuk memahami cara kerja kendaraan bermotor. Salah satunya adalah mesin, jantung dari mobil. Mesin menggunakan energi dari bahan bakar untuk menciptakan gerakan mekanis yang membantu kendaraan bergerak. Selain itu, terdapat sistem transmisi yang mentransfer tenaga dari mesin ke roda kendaraan dengan mengatur kecepatan dan torsi. Sistem pembakaran internal mesin bekerja dengan membakar campuran bahan bakar dan udara untuk menghasilkan energi. Komponen lainnya antara lain transmisi, suspensi, rem, bahan bakar, pendingin, kelistrikan, kemudi, intake, dan sistem transmisi yang semuanya bekerja sama untuk membantu kendaraan tampil maksimal. Memahami konsep-konsep ini membantu merawat, memperbaiki, dan mengoperasikan kendaraan dengan lebih efektif.
+
+### B.	PERKEMBANGAN OTOMOTIF SAAT KINI
+
+Saat ini, industri otomotif sedang mengalami transformasi yang signifikan. Perkembangan teknologi telah melahirkan inovasi-inovasi besar di bidang kendaraan bermotor. Mobilitas  listrik semakin menarik perhatian masyarakat seiring dengan semakin banyaknya jumlah mobil listrik yang diproduksi oleh banyak pabrikan besar. Selain itu, konsep kendaraan otonom atau self-driving juga semakin mendapat perhatian, dengan dikembangkannya sistem kecerdasan buatan yang memungkinkan kendaraan mengemudi sendiri melalui sensor canggih dan teknologi pemrosesan data. Aspek keselamatan juga ditekankan dengan penerapan teknologi pencegahan kecelakaan, seperti sistem pengereman darurat otomatis dan sistem bantuan pengemudi yang semakin canggih. Selain itu, konsep berbagi mobil dan transportasi berbasis layanan (seperti persewaan mobil jangka pendek melalui aplikasi) semakin populer, sehingga mengubah cara masyarakat menggunakan dan memiliki kendaraan. Hal ini merupakan bagian dari perubahan besar dalam industri otomotif yang kini bertujuan untuk meningkatkan kenyamanan, efisiensi, keselamatan, dan keberlanjutan.
+
+### C.	KEUNGGULAN DARI WEBSITE PENDIDIKAN OTOMOTIF
+
+Website pendidikan otomotif memiliki manfaat yang signifikan dalam menyediakan akses universal terhadap pengetahuan otomotif. Dengan kemudahan akses melalui Internet, website ini tidak hanya menyajikan materi pembelajaran terstruktur tetapi juga memungkinkan pembaruan konten secara cepat, mencakup inovasi dan perkembangan terkini di industri mobil. Interaktivitas konten, seperti video instruksional dan simulasi, memungkinkan pemahaman yang lebih baik, sementara platform online juga mendukung forum diskusi, kolaborasi, dan pengujian yang memperkaya pengalaman belajar. Fleksibilitas untuk belajar kapan saja, di mana saja, serta penyesuaiannya, menjadikan situs web pendidikan otomotif sebagai sumber daya yang sangat berharga bagi pelajar, profesional, dan penggemar otomotif.
+
+1.	Aksesibilitas di seluruh dunia
+Melalui situs web, siapa pun dari berbagai belahan dunia dapat mengakses informasi otomotif dan materi pendidikan, selama mereka memiliki koneksi Internet. Hal ini memungkinkan penyebaran pengetahuan otomotif secara luas.
+
+2.	Konten interaktif
+Situs web dapat menyediakan konten interaktif seperti video instruksional, simulasi, atau animasi yang membantu siswa atau pengguna lebih memahami konsep otomotif.
+
+3.	Pembaruan yang mudah dan ulasan
+Situs ini dapat diperbarui secara berkala untuk memuat informasi terkini, teknologi terkini, atau perkembangan industri otomotif. Hal ini memastikan bahwa materi yang disampaikan tetap relevan dan terkini.
