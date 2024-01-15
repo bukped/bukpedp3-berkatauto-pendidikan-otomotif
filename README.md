@@ -1,5 +1,18 @@
-# Dokumentasi Website Pendidikan Otomotif
-## Menggunakan Golang dan JavaScript
+![Cover](./img/cover.png)
+
+# Tutorial Membuat Aplikasi Website Pendidikan Otomotif
+
+# Quick View
+
+### [PRAKATA](#prakarta)
+
+### [BAB I](#bab-i---pendahuluan)
+
+### [BAB II](#bab-ii---pengenalan-otomotif)
+
+### [BAB III](#bab-iii---dasar-pemrograman)
+
+### [BAB IV]()
 
 ## PRAKARTA
 
@@ -13,7 +26,6 @@ Buku ini juga memiliki source code sebagai bahan ajar yang dapat kalian akses me
 https://github.com/berkatauto
 
 ## BAB I - PENDAHULUAN
-
 
 ### A.	PENGENALAN APLIKASI
 
