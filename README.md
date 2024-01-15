@@ -1,48 +1,37 @@
 # Dokumentasi Website Pendidikan Otomotif
 ## Menggunakan Golang dan JavaScript
 
-
-## KATA PENGANTAR
-
-Puji dan syukur penulis panjatkan kepada Tuhan Yang Maha Esa atas berkat dan rahmat-Nyalah sehingga penulis dapat menyelesaikan Buku yang berjudul “DOKUMENTASI WEBSITE PENDIDIKAN OTOMOTIF Menggunakan Golang dan JavaScript”. Tepat pada waktunya. Tidak lupa pula kepada semua pihak yang telah memberikan dukungan sehingga buku ini dapat terselesaikan. 
-
-Pada buku ini, penulis ingin menyampaikan bagaimana tahapan pembuatan aplikasi pendidikan otomotif berbasis website. Aplikasi ini dibuat untuk panduan komprehensif yang dirancang untuk memberikan wawasan tentang pengembangan website pendidikan otomotif menggunakan teknologi Golang dan JavaScript. Melalui penjelasan detail, contoh praktis, dan langkah sistematis, buku ini bertujuan membantu pembaca memahami dan menerapkan materi secara efektif untuk proyek pendidikan otomotif. 
-
-Buku ini disajikan dalam setiap bab yang berisi langkah-langkah untuk pembaca pemula. Setiap bab dibuka dengan penjelasan yang berhubungan dengan materi. Pada bagian selanjutnya diterangkan cara membuat kode program beserta penjelasan setiap baris kode program tersebut. Setiap chapter atau bab yang disajikan dalam buku ini disertakan juga kode program yang bisa diakses melalui link: ---
-
-Dalam buku ini kami menyadari masih terdapat banyak kekurangan untuk itu kritik dan saran yang membangun demi penyempurnaan buku ini sangat diharapkan. Dan semoga buku ini dapat memberkikan manfaat bagi semua yang membacanya. Akhir kata, kamu mengucapkan terima kasih atas apresiasinya kepada berbagai pihak yang turut berpartisipasi didlam penyusunan dan penyempurnaan buku ini. 
-
-Bandung, 01 Desember 2023
-
-Penulis 
-
-
 ## PRAKARTA
 
-Dokumentasi ini bertujuan untuk memberikan gambaran mendalam tentang penerapan teknologi Golang dan JavaScript dalam aplikasi pendidikan otomotif untuk mendukung pemahaman yang lebih mendalam tentang teknologi tersebut. Dengan menggunakan Golang sebagai bahasa pemrograman backend, kami dapat menciptakan aplikasi dasar dengan kinerja yang tinggi, kehandalan, dan kemampuan untuk mengelola beban kerja dengan efisien. Meskipun demikian, penggunaan JavaScript pada sisi frontend memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif. Kombinasi kedua teknologi ini menjadi landasan untuk membangun pengalaman belajar yang kuat, yang menggabungkan komponen fungsionalitas backend yang canggih dengan responsivitas antarmuka pengguna yang menarik. Oleh karena itu, dokumentasi ini bertujuan untuk memberikan wawasan mendalam tentang industri mobil kepada pengembang, praktisi, dan pembelajar. Selain itu, ia juga bertujuan untuk mendorong inovasi dalam penggunaan teknologi dalam pendidikan.
+Otomotif merupakan salah satu topik menarik bagi para pecinta mobil, motor, dan kendaraan bermesin lainnya. Selain itu, Otomotif menjadi bahan topik bagi mereka yang ingin mengenal lebih tentangnya, baik dalam perawatan kendaraan, tips dan trik, dan juga informasi terkini. Namun, informasi pada media internet yang membahas tentang otomotif terbilang sedikit dan sangat terbatas. Hal ini membuat beberapa dari mereka kesulitan mencari informasi tepat dan ter aktual dalam otomotif.
+
+Buku ini bertujuan untuk memberikan pemahaman tentang pembuatan website berteknologi Golang dan JavaScript untuk mendukung pemahaman yang lebih mendalam tentang teknologi tersebut. Dengan menggunakan Golang sebagai bahasa pemrograman backend, kalian dapat menciptakan aplikasi dasar dengan kinerja yang tinggi, kehandalan, dan kemampuan untuk mengelola beban kerja dengan efisien. Meskipun demikian, penggunaan JavaScript pada sisi frontend memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif. Kombinasi kedua teknologi ini menjadi landasan untuk membangun pengalaman belajar yang kuat, yang menggabungkan komponen fungsionalitas backend yang canggih dengan responsivitas antarmuka pengguna yang menarik.
+
+Oleh karena itu, Tutorial ini bertujuan untuk memberikan wawasan mendalam tentang pembuatan website dengan mengambil tema Otomotif sebagai bahan tutorial nya. Selain itu, Tutorial ini juga bertujuan untuk mendorong inovasi dalam penggunaan teknologi dalam pendidikan.
+
+Buku ini juga memiliki source code sebagai bahan ajar yang dapat kalian akses menggunakan link github berikut:
+https://github.com/berkatauto
+
+## BAB I - PENDAHULUAN
 
 
-## BAB I
-## PENDAHULUAN
+### A.	PENGENALAN APLIKASI
+
+Dalam teknologi informasi dalam dunia otomotif, ada berbagai perilaku masyarakat yang berbeda dalam memandang dunia otomotif ini. Ada yang menggunakannya sebagai media informasi berbagi ilmu dalam otomotif, adapun mereka yang menggemari dunia otomotif ini hingga berbagi pengalaman mereka dalam hal tersebut, dan adapun mereka yang hanya mencari tahu bagaimana mereka dapat mencari jalan keluar dalam permasalahan kendaraan mereka melalui teknologi informasi teknologi tersebut. Oleh karenanya, adanya aplikasi website Pendidikan Otomotif sebagai bagian dari teknologi informasi diharapkan menjadi pemudah dalam hubungan masyarakat yang menggemari dunia otomotif, sekaligus mereka yang ingin menemukan jalan keluar dalam dunia otomotif tersebut.
+
+Aplikasi Website Pendidikan Otomotif merupakan website inovatif yang bertujuan untuk mengefektifkan pendidikan otomotif di era digital saat ini. Mengingat tantangan yang dihadapi oleh para penggiat otomotif, seperti kurangnya akses terhadap ilmu dan informasi terkini dan kurangnya pengalaman praktis, website ini dirancang untuk mengatasi kendala tersebut. Berkat pendekatan gabungan teknologi Internet dan multimedia, aplikasi ini menyediakan platform pembelajaran yang kaya dan interaktif. Dengan cara ini, pengguna dapat dengan mudah mengakses materi pelatihan otomotif terkini dan relevan. Website ini tidak hanya memberikan pemahaman teoritis tentang konsep otomotif tetapi juga menawarkan simulasi realistis dan tes latihan yang memungkinkan pengguna mengasah keterampilan virtualnya.
+
+Website memiliki beberapa fasilitas yang dapat di akses, seperti Beranda Berita yang dapat di akses oleh semua, Dashboard, serta akses untuk menulis satu artikel, dan sebagainya.
 
 
-### A.	PENGERTIAN DOKUMENTASI
+### B.	TUJUAN DAN FUNGSI TUTORIAL
 
-Dokumentasi merupakan proses atau kegiatan untuk merekam, menyimpan, dan mengorganisir informasi secara sistematis. Ini mencakup pembuatan catatan, dokumen, atau rekaman yang menyajikan detail tentang suatu kegiatan, proses, atau produk. Dokumentasi memiliki peran yang penting dalam berbagai bidang, mulai dari ilmu pengetahuan dan teknologi hingga industri dan layanan. 
-
-Tujuan utamanya adalah untuk menyediakan referensi yang jelas dan terperinci yang dapat digunakan untuk memahami, mengembangkan, atau memelihara suatu sistem, produk, atau layanan. Dokumentasi juga membantu dalam proses pelatihan, memastikan konsistensi, serta memungkinkan kolaborasi yang efektif antara individu atau tim. Dalam konteks teknologi informasi, dokumentasi sering kali mencakup panduan, petunjuk penggunaan, spesifikasi teknis, dan dokumentasi kode untuk memudahkan pemahaman, pemeliharaan, dan pengembangan sistem atau perangkat lunak.
-
-Dokumentasi pada aplikasi pendidikan otomotif yang menggunakan Golang dan JavaScript merupakan proses pembuatan catatan, petunjuk, dan rekaman yang terstruktur untuk mendokumentasikan semua aspek terkait pengembangan, fungsionalitas, dan penggunaan aplikasi tersebut. Dokumentasi ini mencakup penjelasan detail tentang struktur kode dalam bahasa pemrograman Golang dan JavaScript yang digunakan untuk membangun aplikasi, termasuk penggunaan library, modul, serta teknologi spesifik lainnya yang diimplementasikan. Selain itu, dokumentasi ini juga dapat mencakup petunjuk penggunaan aplikasi, seperti cara mengoperasikan fitur-fitur dalam aplikasi pendidikan otomotif tersebut, panduan instalasi, dan konfigurasi yang diperlukan. 
-
-Tujuan utama dari dokumentasi ini adalah untuk memberikan panduan yang jelas bagi pengembang, pengguna, atau pihak terkait lainnya agar dapat memahami, mengembangkan, dan memelihara aplikasi dengan efisien. Dokumentasi yang komprehensif juga mempermudah proses pelatihan, kolaborasi antar tim, serta memastikan konsistensi dalam pengembangan dan penggunaan aplikasi pendidikan otomotif yang telah dibuat.
-
-### B.	TUJUAN DAN FUNGSI DOKUMENTASI
-
-Tujuan dari dokumentasi yaitu untuk menyediakan panduan yang komprehensif dan terperinci bagi pengembang, pengguna, dan pihak terkait lainnya. Dokumentasi ini bertujuan untuk memfasilitasi pemahaman yang lebih baik tentang struktur, logika, dan fungsionalitas aplikasi, serta menyediakan panduan praktis bagi pengguna untuk memanfaatkan aplikasi secara efektif. 
+Tujuan dari tutorial ini yaitu untuk menyediakan panduan yang komprehensif dan terperinci bagi pengembang, pengguna, dan pihak terkait lainnya. Tutorial ini bertujuan untuk memfasilitasi pemahaman yang lebih baik tentang struktur, logika, dan fungsionalitas aplikasi, serta menyediakan panduan praktis bagi pengguna untuk memanfaatkan aplikasi secara efektif.
 
 Fungsi utamanya adalah sebagai referensi yang jelas dan terstruktur yang mencakup informasi tentang struktur kode, penggunaan teknologi dan metode tertentu dalam implementasi aplikasi, petunjuk instalasi, dan konfigurasi.
 
-Tujuan pendokumentasian pendidikan otomotif :
+
+Tujuan tutorial :
 
 1.	Paduan Komperehensif
 Bertujuan untuk menjelaskan secara komprehensif tentang fungsi bagaimana aplikasi pendidikan otomotif yang dibangun menggunakan Golang dan JavaScript.
@@ -53,7 +42,7 @@ Membantu pengembang dalam pengembangan, pemeliharaan, dan peningkatan aplikasi. 
 3.	Referensi Teknis 
 Menjadi sumber referensi yang terperinci bagi pengembang. Dokumentasi ini akan menjelaskan struktur kode, pemilihan bahasa pemrograman, penggunaan framework, dan teknologi terkait lainnya yang digunakan dalam pembuatan aplikasi.
 
-Fungsi pendokumentasian pendidikan otomotif :
+Fungsi Tutorial :
 
 1.	Paduan Implementasi
 Berfungsi sebagai panduan implementasi yang membantu pengembang untuk memahami dan menerapkan aplikasi dengan efisien menggunakan Golang dan JavaScript.
@@ -62,7 +51,7 @@ Berfungsi sebagai panduan implementasi yang membantu pengembang untuk memahami d
 Berfungsi sebagai sumber informasi untuk pengguna akhir aplikasi. Ini memberikan pemahaman yang lebih baik tentang cara menggunakan aplikasi secara efektif.
 
 
-### C.	MANFAAT DOKUMENTASI 
+### C.	MANFAAT TUTORIAL 
 
 Dokumentasi menjadi sumber pengetahuan yang berharga bagi pembelajar, praktisi, pengembang, dan industri otomotif secara keseluruhan. Hal ini memungkinkan akses yang lebih baik terhadap informasi teknis terkait penerapan teknologi terkini dalam dunia otomotif. 
 
@@ -78,8 +67,7 @@ Mendorong inovasi dan perkembangan dalam industri otomotif dengan memanfaatkan t
 
 
 
-## BAB II
-## PENGENALAN OTOMOTIF
+## BAB II - PENGENALAN OTOMOTIF
 
 ### A.	KONSEP DASAR OTOMOTIF
 
@@ -101,3 +89,5 @@ Situs web dapat menyediakan konten interaktif seperti video instruksional, simul
 
 3.	Pembaruan yang mudah dan ulasan
 Situs ini dapat diperbarui secara berkala untuk memuat informasi terkini, teknologi terkini, atau perkembangan industri otomotif. Hal ini memastikan bahwa materi yang disampaikan tetap relevan dan terkini.
+
+## BAB III - DASAR PEMROGRAMAN
