@@ -2,16 +2,20 @@
 
 # Tutorial Membuat Aplikasi Website Pendidikan Otomotif
 
-# Quick View
+Penulis : 
+
+Adam Ghafara
+\
+Rachma Nurhaliza Parindra
+\
+Roni Habibi
+
+## Quick View
 
 ### [PRAKATA](#prakarta)
-
 ### [BAB I](#bab-i---pendahuluan)
-
 ### [BAB II](#bab-ii---pengenalan-otomotif)
-
 ### [BAB III](#bab-iii---dasar-pemrograman)
-
 ### [BAB IV]()
 
 ## PRAKARTA
