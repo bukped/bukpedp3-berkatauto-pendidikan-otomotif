@@ -17,7 +17,7 @@ Berikut adalah tahap pembuatan Repository GitHub.
 
 Dalam hal ini, beberapa repository yang kita buat pada tutorial diperlukan License agar dapat di publikasi kan pada beberapa penyedia library pihak ketiga. Namun untuk kali ini kita tidak perlu membutuhkannya.
 
-Untuk repository pertama, silahkan kalian beri namanya dengan (namaakun).github.io. Maka secara otomatis repository tersebut menjadi web pages. Silahkan kalian tes link nya dengan memasukkan link dengan nama yang sama seperti pada repository. Lihat hasilnya apakah dapat masuk kedalam halaman atau belum.
+Untuk repository pertama, silahkan kalian beri namanya dengan (namaakun).github.io. Repository ini digunakan sebagai frontend yang akan kita buat dan menjadi domain utamanya.
 
 ## B.	PEMBUATAN FRONTEND
 Ada berbagai cara untuk membuat Front-end. Namun pada tutorial ini, kita akan menggunakan template sebagai Frontend. Pada tutorial ini, kita menggunakan Template sebagai Frontendnya. Kalian dapat menggunakan berbagai template yang ingin kalian gunakan, namun untuk tutorial ini, kita akan menggunakan template dari tailwind yang dapat unduh pada link berikut:
@@ -57,6 +57,21 @@ e.	Dan untuk beberapa template dashboard lainnya, silahkan masukkan dan sesuaika
 
 4.	Assets (CSS, Gambar dan beberapa JS) yang masuk termasuk sebagai pembangun template-template tersebut, masukkan kedalam folder-folder yang sudah dibuatkan tadi.
 
+### b. Upload Repository
+
+Tahap selanjutnya, kita akan memasukkan frontend yang telah kita buat kedalam repository. Berikut ini adalah tahap-tahapnya.
+1.	Masuk kedalam folder frontend utama yang telah kita buat.
+2.	Klik kanan, dan pilih Git Bash
+3.	Selanjutnya, silahkan masukkan dan jalankan command-command berikut secara berurutan:
+```
+git init
+git add .
+git commit -m “Isikan pesan commit disini”
+git branch -M main”
+```
+
+4.	Kembali kedalam repository yang kita buat dalam GitHub. Perhatikan pada Quick Setupnya.
+
 ## C.	PEMBUATAN BACKEND
 ### a.	Mengenali Logika Pada Proses Backend
 Sebelum memulai pembuatan Backend, ada baiknya kita mengenali terlebih dahulu alur logika pada proses backend. Dengan ini, kita mendapatkan gambaran bagaimana proses-proses pada backend yang kita buat berjalan.
@@ -64,6 +79,8 @@ Sebelum memulai pembuatan Backend, ada baiknya kita mengenali terlebih dahulu al
 1. Sign Up
 
 
+
+Pada Proses Sign Up, 
 
 2. Login
 
