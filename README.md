@@ -16,6 +16,8 @@ Roni Habibi
 ### [BAB I](#bab-i---pendahuluan)
 ### [BAB II](#bab-ii---pengenalan-otomotif)
 ### [BAB III](#bab-iii---dasar-pemrograman)
+### [BAB IV](./chapter/babiv.md)
+### [BAB V](./chapter/babv.md)
 
 ## PRAKARTA
 
