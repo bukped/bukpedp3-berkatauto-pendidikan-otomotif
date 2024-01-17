@@ -67,10 +67,25 @@ Tahap selanjutnya, kita akan memasukkan frontend yang telah kita buat kedalam re
 git init
 git add .
 git commit -m “Isikan pesan commit disini”
-git branch -M main”
+git branch -M main
 ```
 
 4.	Kembali kedalam repository yang kita buat dalam GitHub. Perhatikan pada Quick Setupnya.
+
+5.	Silahkan pilih HTTPS dan copy link yang ada di sebelahnya.
+
+6.	Kembali kedalam Git Bash, silahkan masukkan command berikut dan paste link tadi.
+
+```
+git remote add origin “Link Repository“
+```
+Lalu Jalankan.
+
+7.	Terakhir, silahkan Push folder tersebut sehingga akan masuk kedalam repository GitHub.
+
+```
+git push -u origin main
+```
 
 ## C.	PEMBUATAN BACKEND
 ### a.	Mengenali Logika Pada Proses Backend
@@ -80,9 +95,11 @@ Sebelum memulai pembuatan Backend, ada baiknya kita mengenali terlebih dahulu al
 
 
 
-Pada Proses Sign Up, 
+
 
 2. Login
+
+
 
 
 
@@ -90,6 +107,10 @@ Pada Proses Sign Up,
 
 
 
+
+
 4. Hapus Artikel
+
+
 
 
