@@ -5,3 +5,5 @@ Dalam teknologi informasi dalam dunia otomotif, ada berbagai perilaku masyarakat
 Aplikasi Website Pendidikan Otomotif merupakan website inovatif yang bertujuan untuk mengefektifkan pendidikan otomotif di era digital saat ini. Mengingat tantangan yang dihadapi oleh para penggiat otomotif, seperti kurangnya akses terhadap ilmu dan informasi terkini dan kurangnya pengalaman praktis, website ini dirancang untuk mengatasi kendala tersebut. Berkat pendekatan gabungan teknologi Internet dan multimedia, aplikasi ini menyediakan platform pembelajaran yang kaya dan interaktif. Dengan cara ini, pengguna dapat dengan mudah mengakses materi pelatihan otomotif terkini dan relevan. Website ini tidak hanya memberikan pemahaman teoritis tentang konsep otomotif tetapi juga menawarkan simulasi realistis dan tes latihan yang memungkinkan pengguna mengasah keterampilan virtualnya.
 
 Website memiliki beberapa fasilitas yang dapat di akses, seperti Beranda Berita yang dapat di akses oleh semua, Dashboard, serta akses untuk menulis satu artikel, dan sebagainya.
+
+Next -> [B. Tujuan dan Fungsi Tutorial](../B.%20Tujuan%20dan%20Fungsi%20Tutorial/README.md)

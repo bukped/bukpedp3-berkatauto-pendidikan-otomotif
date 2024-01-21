@@ -23,3 +23,5 @@ Berfungsi sebagai panduan implementasi yang membantu pengembang untuk memahami d
 
 2.	Dukungan Pengguna Akhir 
 Berfungsi sebagai sumber informasi untuk pengguna akhir aplikasi. Ini memberikan pemahaman yang lebih baik tentang cara menggunakan aplikasi secara efektif.
+
+Next -> [C. Manfaat Tutorial](../C.%20Manfaat%20Tutorial/README.md)
