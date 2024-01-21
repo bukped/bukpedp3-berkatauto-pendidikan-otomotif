@@ -1,4 +1,0 @@
-# BAB IV - Penginstalan Aplikasi
-
-## A.	APLIKASI PEMBANGUN YANG DIBUTUHKAN
-

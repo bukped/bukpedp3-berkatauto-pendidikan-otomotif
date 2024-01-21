@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "656d2f8412686ce4ca91a610"
+  },
+  "fullname": "Dilan Asshidiq",
+  "username": "saladianman",
+  "password": "$2a$14$EYUq/HEz1Ft/QdMAnucfw.gUUzd2ajrFQu9AGtBKs/PH.A54/8yJy",
+  "journal_bool": true,
+  "token": "v4.public.eyJleHAiOiIyMDIzLTEyLTA0VDAzOjQ2OjQ1WiIsImlhdCI6IjIwMjMtMTItMDRUMDE6NDY6NDVaIiwiaWQiOiJzYWxhZGlhbm1hbiIsIm5iZiI6IjIwMjMtMTItMDRUMDE6NDY6NDVaIn0tWVNIZg9rPKskJI5WeCJsomif9ftuE7H1qGiAxSE58ep1StlciJOnJITxT7-GEcTp1r7k4uu0C69HwGXzZFMM",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "656d316e12686ce4ca91a612"
+  },
+  "fullname": "Adam Ghafara",
+  "username": "adam_ghafara",
+  "password": "$2a$14$OEQKyGGp9qRd2dAYcghJFOywwUy9FbmVnts5gtxgtyG4yCkcBX/SW",
+  "journal_bool": true,
+  "token": "v4.public.eyJleHAiOiIyMDIzLTEyLTA0VDAzOjU0OjU0WiIsImlhdCI6IjIwMjMtMTItMDRUMDE6NTQ6NTRaIiwiaWQiOiJhZGFtX2doYWZhcmEiLCJuYmYiOiIyMDIzLTEyLTA0VDAxOjU0OjU0WiJ9l21rkyZhHJ4kyGYbryONYgnMYqvDeWPVZLvUYv5sVvuyUHmrH9d84e8CTIMIGgg8nXYbSNwB3tHVlSSew67EBw",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "656d3a43ff4eedc1c0a0abcf"
+  },
+  "fullname": "Rachma Nurhaliza Parindra",
+  "username": "rachma_nr1",
+  "password": "$2a$14$b5wBKlAcnt6PbGVp8bRP7eJvW50mSLdIFNUBfc2lwa4qPBIQxpd5e",
+  "journal_bool": true,
+  "token": "v4.public.eyJleHAiOiIyMDIzLTEyLTA0VDA0OjMyOjM1WiIsImlhdCI6IjIwMjMtMTItMDRUMDI6MzI6MzVaIiwiaWQiOiJyYWNobWFfbnIxIiwibmJmIjoiMjAyMy0xMi0wNFQwMjozMjozNVoifYLYYlgj3ME74uUkdy8lQNAaNNlYqKNx8lU4dbXlUQ2D5ad_CZSiGfUDUczUEL-nV9llpQbaIIMUU2aqKHSJRQc",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "656d52f5b51337425a6729ea"
+  },
+  "fullname": "Contoh Admin",
+  "username": "admin",
+  "password": "$2a$14$0RXhUXNY3Pcx74cqfvEIK.jqpuSMaEvzsm.TEzkKlFxo.ljdtuK1.",
+  "journal_bool": true,
+  "token": "v4.public.eyJleHAiOiIyMDIzLTEyLTA0VDA2OjE3OjU3WiIsImlhdCI6IjIwMjMtMTItMDRUMDQ6MTc6NTdaIiwiaWQiOiJhZG1pbiIsIm5iZiI6IjIwMjMtMTItMDRUMDQ6MTc6NTdaIn3uTtiQ1OovsF2AI9B6BDXwH2r8S2YeDVmu2UMJb4lWrnyR35nVmShzQDalxA9dkDVYypWFQWbZHrx7CM13yvQI",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "65aa242652de9625ad9bf30b"
+  },
+  "fullname": "Rachma Nurhaliza Parindra",
+  "username": "rachma123",
+  "password": "$2a$14$4hjL5gkF6IpsdvCxcsQoe.tOMJdRlhl1XKF0JQOlczcG0DgqCtz9q",
+  "journal_bool": true,
+  "token": "v4.public.eyJleHAiOiIyMDI0LTAxLTE5VDA5OjI2OjMwWiIsImlhdCI6IjIwMjQtMDEtMTlUMDc6MjY6MzBaIiwiaWQiOiJyYWNobWExMjMiLCJuYmYiOiIyMDI0LTAxLTE5VDA3OjI2OjMwWiJ9_vbeEYrAzrC-Y8R4EcEUlVpc5AgGCle26XbEzYBHqglX76baDvh0_BAJVA7XrOsnin94vni3Fv6tKDzhSb-rAA",
+  "role": "admin"
+}]

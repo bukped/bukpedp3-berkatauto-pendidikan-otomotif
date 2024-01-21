@@ -88,8 +88,8 @@ git push -u origin main
 ```
 
 ## C.	PEMBUATAN BACKEND
-### a.	Mengenali Logika Pada Proses Backend
-Sebelum memulai pembuatan Backend, ada baiknya kita mengenali terlebih dahulu alur logika pada proses backend. Dengan ini, kita mendapatkan gambaran bagaimana proses-proses pada backend yang kita buat berjalan.
+
+Pada pembuatan Backend ini, kita akan menggunakan Golang sebagai Package nya. Silahkan ikuti beberapa tahap berikut untuk membuat Backend Aplikasi Website ini.
 
 1. Sign Up
 

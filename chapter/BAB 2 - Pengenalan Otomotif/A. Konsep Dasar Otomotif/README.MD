@@ -1,5 +1,0 @@
-# A.	KONSEP DASAR OTOMOTIF
-
-Otomotif mencakup serangkaian konsep dasar yang penting untuk memahami cara kerja kendaraan bermotor. Salah satunya adalah mesin, jantung dari mobil. Mesin menggunakan energi dari bahan bakar untuk menciptakan gerakan mekanis yang membantu kendaraan bergerak. Selain itu, terdapat sistem transmisi yang mentransfer tenaga dari mesin ke roda kendaraan dengan mengatur kecepatan dan torsi. Sistem pembakaran internal mesin bekerja dengan membakar campuran bahan bakar dan udara untuk menghasilkan energi. Komponen lainnya antara lain transmisi, suspensi, rem, bahan bakar, pendingin, kelistrikan, kemudi, intake, dan sistem transmisi yang semuanya bekerja sama untuk membantu kendaraan tampil maksimal. Memahami konsep-konsep ini membantu merawat, memperbaiki, dan mengoperasikan kendaraan dengan lebih efektif.
-
-Next -> [B. Perkembangan Otomotif Saat Ini](../B.%20Perkembangan%20Otomotif%20Saat%20Ini/README.MD)

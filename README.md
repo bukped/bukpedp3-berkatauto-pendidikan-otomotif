@@ -1,41 +1,27 @@
-![Cover](./img/cover.png)
-
 # Tutorial Membuat Aplikasi Website Pendidikan Otomotif
 
-Penulis : 
+## Sinopsis Naskah
 
-Adam Ghafara
-\
-Rachma Nurhaliza Parindra
-\
-Roni Habibi
+Buku "Tutorial Membuat Aplikasi Website Pendidikan Otomotif" ini memberikan pemahaman tentang pembuatan website berteknologi Golang untuk mendukung pemahaman yang lebih mendalam tentang teknologi tersebut. Dengan menggunakan Golang sebagai bahasa pemrograman backend, kalian dapat menciptakan aplikasi dasar dengan kinerja yang tinggi, kehandalan, dan kemampuan untuk mengelola beban kerja dengan efisien. Meskipun demikian, penggunaan JavaScript pada sisi frontend memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif. Kombinasi kedua teknologi ini menjadi landasan untuk membangun pengalaman belajar yang kuat, yang menggabungkan komponen fungsionalitas backend yang canggih dengan responsivitas antarmuka pengguna yang menarik.
 
-## PRAKARTA
+![Cover](./img/cover.png)
 
-Otomotif merupakan salah satu topik menarik bagi para pecinta mobil, motor, dan kendaraan bermesin lainnya. Selain itu, Otomotif menjadi bahan topik bagi mereka yang ingin mengenal lebih tentangnya, baik dalam perawatan kendaraan, tips dan trik, dan juga informasi terkini. Namun, informasi pada media internet yang membahas tentang otomotif terbilang sedikit dan sangat terbatas. Hal ini membuat beberapa dari mereka kesulitan mencari informasi tepat dan ter aktual dalam otomotif.
+## Biografi Penulis 
 
-Buku ini bertujuan untuk memberikan pemahaman tentang pembuatan website berteknologi Golang dan JavaScript untuk mendukung pemahaman yang lebih mendalam tentang teknologi tersebut. Dengan menggunakan Golang sebagai bahasa pemrograman backend, kalian dapat menciptakan aplikasi dasar dengan kinerja yang tinggi, kehandalan, dan kemampuan untuk mengelola beban kerja dengan efisien. Meskipun demikian, penggunaan JavaScript pada sisi frontend memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif. Kombinasi kedua teknologi ini menjadi landasan untuk membangun pengalaman belajar yang kuat, yang menggabungkan komponen fungsionalitas backend yang canggih dengan responsivitas antarmuka pengguna yang menarik.
+### Penulis 1 : Adam Ghafara
 
-Oleh karena itu, Tutorial ini bertujuan untuk memberikan wawasan mendalam tentang pembuatan website dengan mengambil tema Otomotif sebagai bahan tutorial nya. Selain itu, Tutorial ini juga bertujuan untuk mendorong inovasi dalam penggunaan teknologi dalam pendidikan.
+![Profile Adam](./)
 
-Buku ini juga memiliki source code sebagai bahan ajar yang dapat kalian akses menggunakan link github berikut:
-https://github.com/berkatauto
+Lahir di Bandung, pada 28 September 2001. Menempuh pendidikan tingkat dasar hingga Madrasah Aliyah di Bandung dan pernah menjadi bagian dari Organisasi Siswa di Madrasah Aliyah. Kini, sedang melanjutkan pendidikannya di perguruan tinggi Universitas Logistik dan Bisnis Internasional (ULBI) di Program Studi DIV Teknik Informatika. Memiliki minat dan pengalaman di bidang komputer dari Madrasah hingga sekarang.
 
-## Daftar Isi
+### Rachma Nurhaliza Parindra
 
-### [PRAKATA](#prakarta)
-### [BAB I - Pendahuluan](./chapter/BAB%201%20-%20Pendahuluan/README.md)
-#### [A. Pengenalan Aplikasi](./chapter/BAB%201%20-%20Pendahuluan/A.%20Pengenalan%20Aplikasi/README.MD)
-#### [B. Tujuan dan Fungsi Tutorial](./chapter/BAB%201%20-%20Pendahuluan/B.%20Tujuan%20dan%20Fungsi%20Tutorial/README.md)
-#### [C. Manfaat Tutorial](./chapter/BAB%201%20-%20Pendahuluan/C.%20Manfaat%20Tutorial/README.md)
-### [BAB II - Pengenalan Otomotif](#bab-ii---pengenalan-otomotif)
-#### [A. Konsep Dasar Otomotif](./chapter/BAB%202%20-%20Pengenalan%20Otomotif/A.%20Konsep%20Dasar%20Otomotif/README.MD)
-#### [B. Perkembangan Otomotif Saat Ini](./chapter/BAB%202%20-%20Pengenalan%20Otomotif/B.%20Perkembangan%20Otomotif%20Saat%20Ini/README.MD)
-#### [C. Keunggulan Dari Website Pendidikan Otomotif](./chapter/BAB%202%20-%20Pengenalan%20Otomotif/C.%20Keunggulan%20Dari%20Website%20Pendidikan%20Otomotif/README.MD)
-### [BAB III - Dasar Pemrograman](./chapter/babiv.md)
-#### [Bahasa Pemrograman](./chapter/BAB%203%20-%20Dasar%20Pemrograman/README.MD)
-##### [a. HTML](./chapter/BAB%203%20-%20Dasar%20Pemrograman/A.%20Bahasa%20Pemrograman/a.%20HTML/README.MD)
-##### [a. CSS](./chapter/BAB%203%20-%20Dasar%20Pemrograman/A.%20Bahasa%20Pemrograman/b.%20CSS/README.MD)
-##### [a. Javascript](./chapter/BAB%203%20-%20Dasar%20Pemrograman/A.%20Bahasa%20Pemrograman/c.%20Javascript/README.MD)
-##### [a. Golang (Go)](./chapter/BAB%203%20-%20Dasar%20Pemrograman/A.%20Bahasa%20Pemrograman/d.%20Golang%20(Go)/README.MD)
-### [BAB V - Pembuatan Aplikasi Website](./chapter/babv.md)
+<img src="./img/profile/IMG_20230321_202325_051.png" height="250">
+
+Lahir di Karawang, pada 26 Mei 2003. Menempuh pendidikan tingkat dasar hingga Madrasah Aliyah di Karawang dan pernah menjadi bagian organisasi mahasiswa di Madrasah Tsanawiyah. Saat ini sedang melanjutkan pendidikannya di Perguruan Tinggi Universitas Logistik dan Bisnis Internasional (ULBI) di Program Studi DIV Teknik Informatika. 
+
+### Roni Habibi
+
+<img src="" height="250">
+
+Dosen fakultas Teknik Informatika pada Universitas Logistik dan Bisnis Internasional (ULBI). Memiliki riwayat pendidikan S1 Teknik Informatika pada Universitas Nasional Pasim (UNAS PASIM). S2 Teknik Informatika pada Insitut Teknologi Bandung (ITB). S3 Teknik Informatika pada Universitas Pendidikan Indonesia (UPI). Saat ini menjabat juga sebagai Editor Penerbit PT. Bukupedia.

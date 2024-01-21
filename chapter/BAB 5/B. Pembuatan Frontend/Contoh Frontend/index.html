@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berkat Auto - Pendidikan Otomotif</title>
+    <link rel="icon" href="../images/berkatauto.ico">
+    <link href="./css/style.css" rel="stylesheet"></head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"  rel="stylesheet" />
+  <body
+    x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
+    x-init="
+         darkMode = JSON.parse(localStorage.getItem('darkMode'));
+         $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
+    :class="{'b eh': darkMode === true}"
+  >
+    <!-- ===== Header Start ===== -->
+    <header
+  class="g s r vd ya cj"
+  :class="{ 'hh sm _k dj bl ll' : stickyMenu }"
+  @scroll.window="stickyMenu = (window.pageYOffset > 20) ? true : false"
+>
+  <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
+    <div class="vd to/4 tc wf yf">
+      <a href="./index.html">
+        <h2>BERKAT AUTO</h2>
+      </a>
+
+      <!-- Hamburger Toggle BTN -->
+      <button class="po rc" @click="navigationOpen = !navigationOpen">
+        <span class="rc i pf re pd">
+          <span class="du-block h q vd yc">
+            <span class="rc i r s eh um tg te rd eb ml jl dl" :class="{ 'ue el': !navigationOpen }"></span>
+            <span class="rc i r s eh um tg te rd eb ml jl fl" :class="{ 'ue qr': !navigationOpen }"></span>
+            <span class="rc i r s eh um tg te rd eb ml jl gl" :class="{ 'ue hl': !navigationOpen }"></span>
+          </span>
+          <span class="du-block h q vd yc lf">
+            <span class="rc eh um tg ml jl el h na r ve yc" :class="{ 'sd dl': !navigationOpen }"></span>
+            <span class="rc eh um tg ml jl qr h s pa vd rd" :class="{ 'sd rr': !navigationOpen }"></span>
+          </span>
+        </span>
+      </button>
+      <!-- Hamburger Toggle BTN -->
+    </div>
+
+    <div
+      class="vd wo/4 sd qo f ho oo wf yf"
+      :class="{ 'd hh rm sr td ud qg ug jc yh': navigationOpen }"
+    >
+      <nav>
+        <ul class="tc _o sf yo cg ep">
+          <li><a href="./index.html" class="xl" :class="{ 'mk': page === 'home' }">Home</a></li>
+          <li class="c i" x-data="{ dropdown: false }">
+            <a
+              href="#"
+              class="xl tc wf yf bg"
+              @click.prevent="dropdown = !dropdown"
+              :class="{ 'mk': page === 'blog-grid' || page === 'blog-belajar' || page === 'blog-tips' || page === 'signin' || page === 'signup' || page === '404' }"
+            >
+              Journal
+
+              <svg
+              :class="{ 'wh': dropdown }"
+              class="th mm we fd pf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+              </svg>
+            </a>
+
+            <!-- Dropdown Start -->
+            <ul class="a" :class="{ 'tc': dropdown }">
+              <li><a href="./pages/dsb/dashboard.html" class="xl" :class="{ 'mk': page === 'dashboard' }">Dashboard</a></li>
+              <!-- <li><a href="#" class="xl" :class="{ 'mk': page === '' }">Stats</a></li> -->
+            </ul>
+            <!-- Dropdown End -->
+          </li>
+        </ul>
+      </nav>
+      <div class="tc wf ig pb no">
+        <!-- <div class="pc h io pa ra" :class="navigationOpen ? '!-ud-visible' : 'd'">
+          <label class="rc ab i">
+            <input type="checkbox" :value="darkMode" @change="darkMode = !darkMode" class="pf vd yc uk h r za ab" /> -->
+            <!-- Icon Sun -->
+            <!-- <svg :class="{ 'wn' : page === 'home', 'xh' : page === 'home' && stickyMenu }" class="th om" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.0908 18.6363C10.3549 18.6363 8.69 17.9467 7.46249 16.7192C6.23497 15.4916 5.54537 13.8268 5.54537 12.0908C5.54537 10.3549 6.23497 8.69 7.46249 7.46249C8.69 6.23497 10.3549 5.54537 12.0908 5.54537C13.8268 5.54537 15.4916 6.23497 16.7192 7.46249C17.9467 8.69 18.6363 10.3549 18.6363 12.0908C18.6363 13.8268 17.9467 15.4916 16.7192 16.7192C15.4916 17.9467 13.8268 18.6363 12.0908 18.6363ZM12.0908 16.4545C13.2481 16.4545 14.358 15.9947 15.1764 15.1764C15.9947 14.358 16.4545 13.2481 16.4545 12.0908C16.4545 10.9335 15.9947 9.8236 15.1764 9.00526C14.358 8.18692 13.2481 7.72718 12.0908 7.72718C10.9335 7.72718 9.8236 8.18692 9.00526 9.00526C8.18692 9.8236 7.72718 10.9335 7.72718 12.0908C7.72718 13.2481 8.18692 14.358 9.00526 15.1764C9.8236 15.9947 10.9335 16.4545 12.0908 16.4545ZM10.9999 0.0908203H13.1817V3.36355H10.9999V0.0908203ZM10.9999 20.8181H13.1817V24.0908H10.9999V20.8181ZM2.83446 4.377L4.377 2.83446L6.69082 5.14828L5.14828 6.69082L2.83446 4.37809V4.377ZM17.4908 19.0334L19.0334 17.4908L21.3472 19.8046L19.8046 21.3472L17.4908 19.0334ZM19.8046 2.83337L21.3472 4.377L19.0334 6.69082L17.4908 5.14828L19.8046 2.83446V2.83337ZM5.14828 17.4908L6.69082 19.0334L4.377 21.3472L2.83446 19.8046L5.14828 17.4908ZM24.0908 10.9999V13.1817H20.8181V10.9999H24.0908ZM3.36355 10.9999V13.1817H0.0908203V10.9999H3.36355Z" fill=""/>
+            </svg> -->
+            <!-- Icon Sun -->
+            <!-- <img class="xc nm" src="images/icon-moon.svg" alt="Moon" />
+          </label>
+        </div> -->
+        <form>
+          <div class="flex">
+              <button id="dropdown-button" data-dropdown-toggle="dropdown" class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600" type="button">Semua Kategori<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+        </svg></button>
+              <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
+                  <li>
+                      <button type="button" class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Tips</button>
+                  </li>
+                  <li>
+                      <button type="button" class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Berita</button>
+                  </li>
+                  <li>
+                      <button type="button" class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Belajar Otomotif</button>
+                  </li>
+                  </ul>
+              </div>
+              <div class="relative w-full">
+                  <input type="search" id="search-dropdown" class="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-r-lg border-l-gray-50 border-l-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Cari Artikel..." required>
+                  <button type="submit" class="absolute top-0 right-0 p-2.5 text-sm font-medium h-full text-white bg-blue-700 rounded-r-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                      </svg>
+                      <span class="sr-only">Search</span>
+                  </button>
+              </div>
+          </div>
+        </form>
+        <a href="./pages/signin.html" :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }" class="ek pk xl">Sign In</a>
+        <a href="./pages/signup.html" :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }" class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <!-- ===== Header End ===== -->
+
+    <main>
+      <!-- ===== Hero Start ===== -->
+      <section class="gj do ir hj sp jr i pg">
+        <!-- Hero Images -->
+        <div class="xc fn zd/2 2xl:ud-w-187.5 bd 2xl:ud-h-171.5 h q r">
+          <img src="images/shape-01.svg" alt="shape" class="xc 2xl:ud-block h t -ud-left-[10%] ua" />
+          <img src="images/shape-02.svg" alt="shape" class="xc 2xl:ud-block h u p va" />
+          <img src="images/shape-03.svg" alt="shape" class="xc 2xl:ud-block h v w va" />
+          <img src="images/shape-04.svg" alt="shape" class="h q r" />
+          <img src="images/hero.png" alt="Woman" class="h q r ua" />
+        </div>
+
+        <!-- Hero Content -->
+        <div class="bb ze ki xn 2xl:ud-px-0">
+          <div class="tc _o">
+            <div class="animate_left jn/2">
+              <h1 class="fk vj zp or kk wm wb">Pendidikan Otomotif dengan mudah dan dimana saja.</h1>
+              <p class="fq">
+                Berkat Auto adalah Web Artikel Open Platform yang menyediakan berbagai ilmu dan berita otomotif terkini. Baik penulis maupun pembaca, Berkat Auto merupakan tempat berbagi ilmu untuk dunia otomotif.
+              </p>
+
+              <div class="tc tf yo zf mb">
+                <a href="#" class="ek jk lk gh gi hi rg ml il vc _d _l"
+                  >Get Started Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Hero End ===== -->
+
+      <!-- ===== Small Features Start ===== -->
+      <section id="features">
+        <div class="bb ze ki yn 2xl:ud-px-12.5">
+          <div class="tc uf zo xf ap zf bp mq">
+            <!-- Small Features Item -->
+            <div class="animate_top kn to/3 tc cg oq">
+              <div class="tc wf xf cf ae cd rg mh">
+                <img src="images/icon-01.svg" alt="Icon" />
+              </div>
+              <div>
+                <h4 class="ek yj go kk wm xb">Tips Otomotif</h4>
+                <p>Dapatkan Tips untuk kendaraan anda secara mudah dan interaktif.</p>
+              </div>
+            </div>
+
+            <!-- Small Features Item -->
+            <div class="animate_top kn to/3 tc cg oq">
+              <div class="tc wf xf cf ae cd rg nh">
+                <img src="images/icon-02.svg" alt="Icon" />
+              </div>
+              <div>
+                <h4 class="ek yj go kk wm xb">Berita Otomotif</h4>
+                <p>Cari tahu dunia otomotif, baik lokal maupun mancanegara.</p>
+              </div>
+            </div>
+
+            <!-- Small Features Item -->
+            <div class="animate_top kn to/3 tc cg oq">
+              <div class="tc wf xf cf ae cd rg oh">
+                <img src="images/icon-03.svg" alt="Icon" />
+              </div>
+              <div>
+                <h4 class="ek yj go kk wm xb">Belajar Otomotif</h4>
+                <p>Ingin belajar lebih dalam tentang otomotif? Cari tahu di Berkat Auto!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Small Features End ===== -->
+
+      <!-- ===== About Start ===== -->
+      <!-- <section class="ji gp uq 2xl:ud-py-35 pg">
+        <div class="bb ze ki xn wq">
+          <div class="tc wf gg qq"> -->
+            <!-- About Images -->
+            <!-- <div class="animate_left xc gn gg jn/2 i">
+              <div>
+                <img src="images/shape-05.svg" alt="Shape" class="h -ud-left-5 x" />
+                <img src="images/about-01.png" alt="About" class="ib" />
+                <img src="images/about-02.png" alt="About" />
+              </div>
+              <div>
+                <img src="images/shape-06.svg" alt="Shape" />
+                <img src="images/about-03.png" alt="About" class="ob gb" />
+                <img src="images/shape-07.svg" alt="Shape" class="bb" />
+              </div>
+            </div> -->
+
+            <!-- About Content -->
+            <!-- <div class="animate_right jn/2">
+              <h4 class="ek yj mk gb">Kemudahan Dalam Otomotif</h4>
+              <h2 class="fk vj zp pr kk wm qb">Kami selalu ada setiap kalian membutuhkannya.</h2>
+              <p class="uo">Berkat Auto selalu menjadi yang terbaik dalam memberikan informasi bagi para penggemar otomotif maupun mereka yang mencari kebutuhan dalam dunia otomotif.</p>
+
+              <a href="https://www.youtube.com/watch?v=xcJtL7QggTI" data-fslightbox class="vc wf hg mb">
+                <span class="tc wf xf be dd rg i gh ua">
+                  <span class="nf h vc yc vd rg gh qk -ud-z-1"></span>
+                  <img src="images/icon-play.svg" alt="Play" />
+                </span>
+                <span class="kk">CARI TAHU LEBIH LANJUT</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- ===== About End ===== -->
+
+      <!-- ===== Blog Start ===== -->
+      <section class="ji gp uq">
+        <!-- Section Title Start -->
+        <div
+          x-data="{ sectionTitle: `Berita & Pendidikan Terkini`, sectionTitleText: `Silahkan lihat-lihat dengan beberapa berita terkini, tips, belajar otomotif, dan sebagainya dari kami.`}"
+        >
+          <div class="animate_top bb ze rj ki xn vq">
+    <h2
+            x-text="sectionTitle"
+            class="fk vj pr kk wm on/5 gq/2 bb _b"
+    >
+    </h2>
+    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+</div>
+        </div>
+        <!-- Section Title End -->
+        <div id="loadnews">
+        <div class="bb ye ki xn vq jb jo">
+          <div class="wc qf pn xo zf iq">
+            <!-- Blog Item -->
+            <div class="animate_top sg vk rm xm">
+              <div class="c rc i z-1 pg">
+                <img class="w-full" src="./images/Rem-ABS.jpg" alt="Blog" />
+
+                <div
+                  class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"
+                >
+                  <a href="./pages/blog-belajar.html" class="vc ek rg lk gh sl ml il gi hi"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+              <div class="yh">
+                <div class="tc uf wf ag jq">
+                  <div class="tc wf ag">
+                    <img src="./images/icon-man.svg" alt="User" />
+                    <p>Rachma Nurhaliza Parindra</p>
+                  </div>
+                  <div class="tc wf ag">
+                    <img src="images/icon-calender.svg" alt="Calender" />
+                    <p>10 Oktober, 2023</p>
+                  </div>
+                </div>
+                <h4 class="ek tj ml il kk wm xl eq lb">
+                  <a href="./pages/blog-belajar.html">Belajar Otomotif : Cara Memperbaiki Rem ABS Sepeda Motor</a>
+                </h4>
+              </div>
+            </div>
+            <!-- Blog Item -->
+            <div class="animate_top sg vk rm xm">
+              <div class="c rc i z-1 pg">
+                <img class="w-full" src="./images/mobil.jpeg" alt="Blog" />
+
+                <div
+                  class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"
+                >
+                  <a href="./pages/blog-tips.html" class="vc ek rg lk gh sl ml il gi hi"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+
+              <div class="yh">
+                <div class="tc uf wf ag jq">
+                  <div class="tc wf ag">
+                    <img src="images/icon-man.svg" alt="User" />
+                    <p>Adam Ghafara</p>
+                  </div>
+                  <div class="tc wf ag">
+                    <img src="images/icon-calender.svg" alt="Calender" />
+                    <p>17 Oktober, 2023</p>
+                  </div>
+                </div>
+                <h4 class="ek tj ml il kk wm xl eq lb">
+                  <a href="./pages/blog-tips.html">Tips Otomotif : Cara Agar Mur Roda Mobil Mudah Dibuka</a>
+                </h4>
+              </div>
+            </div>
+
+            <!-- Blog Item -->
+            <div class="animate_top sg vk rm xm">
+              <div class="c rc i z-1 pg">
+                <img class="w-full" src="./images/mobil-listrik3.jpeg" alt="Blog" />
+
+                <div
+                  class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"
+                >
+                  <a href="./pages/blog-berita.html" class="vc ek rg lk gh sl ml il gi hi"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+
+              <div class="yh">
+                <div class="tc uf wf ag jq">
+                  <div class="tc wf ag">
+                    <img src="images/icon-man.svg" alt="User" />
+                    <p>Rachma Nurhaliza Parindra</p>
+                  </div>
+                  <div class="tc wf ag">
+                    <img src="images/icon-calender.svg" alt="Calender" />
+                    <p>28 No, 2023</p>
+                  </div>
+                </div>
+                <h4 class="ek tj ml il kk wm xl eq lb">
+                  <a href="./pages/blog-berita.html">Berita Otomotif: Hyundai Siapkan Mobil Listrik Baru, Pakai Baterai Buatan Lokal</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- ===== Blog End ===== --> 
+
+      <!-- ===== CTA Start ===== -->
+      <section class="i pg gh ji">
+  <!-- Bg Shape -->
+  <img class="h p q" src="images/shape-16.svg" alt="Bg Shape" />
+
+  <div class="bb ye i z-10 ki xn dr">
+    <div class="tc uf sn tn un gg">
+      <div class="animate_left to/2">
+        <h2 class="fk vj zp pr lk ac">
+            Anda adalah seorang penggemar otomotif dan ingin menjadi penulis?
+        </h2>
+        <p class="lk">
+            Ikut dengan kami menjadi relawan jurnalis bagi komunitas penulis Berkat Auto dan bagikan ilmu dan pengalaman anda mengenai pengetahuan otomotif anda.
+        </p>
+      </div>
+      <div class="animate_right bf">
+        <a href="./pages/signup.html" class="vc ek kk hh rg ol il cm gi hi">
+            Get Started Now
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- ===== CTA End ===== -->
+    </main>
+    <!-- ===== Footer Start ===== -->
+    <footer>
+      <div class="bb ze ki xn 2xl:ud-px-0">
+        <!-- Footer Top -->
+        <div class="ji gp">
+          <div class="tc uf ap gg fp">
+            <div class="animate_top zd/2 to/4">
+              <a href="../index.html">
+                  <h2>BERKAT AUTO</h2>
+              </a>
+              <p class="lc fb">Logo dan berbagai kontennya dibawah kepemilikan Berkat Auto.</p>
+              <p class="lc fb">Dilarang dengan keras menjiplak dan mempublish ulang konten dan berbagai artikel dari kami maupun berbagai penulis konten dari komunitas kecuali atas persetujuan penulis.</p>
+            </div>
+    
+            <div class="vd ro tc sf rn un gg vn">
+              <div class="animate_top">
+                <h4 class="kk wm tj ec">Quick Links</h4>
+    
+                <ul>
+                  <li><a href="../index.html" class="sc xl vb">Home</a></li>
+                  <li><a href="./blog-tips.html" class="sc xl vb">Tips</a></li>
+                  <li>
+                    <a href="./blog-belajar.html" class="sc xl vb">
+                      Belajar 
+                      <!-- <span class="sc ek uj lk nh rg zi _i nc">Berita</span> -->
+                    </a>
+                  </li>
+                  <li><a href="./blog-berita.html" class="sc xl vb">Berita</a></li>
+                </ul>
+              </div>
+    
+              <!-- <div class="animate_top">
+                <h4 class="kk wm tj ec">Services</h4>
+    
+                <ul>
+                  <li><a href="#" class="sc xl vb">Web Development</a></li>
+                  <li><a href="#" class="sc xl vb">Backend Developer</a></li>
+                  <li><a href="#" class="sc xl vb">Full Stack Developer</a></li>
+                  <li><a href="#" class="sc xl vb">Ui/Ux Design</a></li>
+                </ul>
+              </div>
+    
+              <div class="animate_top">
+                <h4 class="kk wm tj ec">Support</h4>
+    
+                <ul>
+                  <li><a href="#" class="sc xl vb">FAQ</a></li>
+                  <li><a href="#" class="sc xl vb">User Guides or Tutorials</a></li>
+                  <li><a href="#" class="sc xl vb">Our Blog</a></li>
+                  <li><a href="#" class="sc xl vb">Contact Us</a></li>
+                </ul>
+              </div>
+    
+              <div class="animate_top">
+                <h4 class="kk wm tj ec">Langganan Kami</h4>
+                <p class="ac qe">Berlangganan dengan kami</p>
+                <form action="" method="POST">
+                  <div class="i">
+                    <input
+                      type="text"
+                      placeholder="Email address"
+                      class="vd sm _g ch pm vk xm rg gm dm dn gi mi"
+                    />
+    
+                    <button class="h q fi">
+                      <svg class="th vm ul" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_48_1487)">
+                          <path
+                            d="M3.1175 1.17318L18.5025 9.63484C18.5678 9.67081 18.6223 9.72365 18.6602 9.78786C18.6982 9.85206 18.7182 9.92527 18.7182 9.99984C18.7182 10.0744 18.6982 10.1476 18.6602 10.2118C18.6223 10.276 18.5678 10.3289 18.5025 10.3648L3.1175 18.8265C3.05406 18.8614 2.98262 18.8792 2.91023 18.8781C2.83783 18.8769 2.76698 18.857 2.70465 18.8201C2.64232 18.7833 2.59066 18.7308 2.55478 18.6679C2.51889 18.6051 2.50001 18.5339 2.5 18.4615V1.53818C2.50001 1.46577 2.51889 1.39462 2.55478 1.33174C2.59066 1.26885 2.64232 1.2164 2.70465 1.17956C2.76698 1.14272 2.83783 1.12275 2.91023 1.12163C2.98262 1.12051 3.05406 1.13828 3.1175 1.17318ZM4.16667 10.8332V16.3473L15.7083 9.99984L4.16667 3.65234V9.16651H8.33333V10.8332H4.16667Z"
+                            fill=""
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_48_1487">
+                            <rect width="20" height="20" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                  </div>
+                </form>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- Footer Top -->
+    
+        <!-- Footer Bottom -->
+        <div class="bh ch pm tc uf sf yo wf xf ap cg fp bj">
+          <div class="animate_top">
+            <!-- <ul class="tc wf gg">
+              <li><a href="#" class="xl">Privacy Policy</a></li>
+              <li><a href="#" class="xl">Support</a></li>
+            </ul> -->
+          </div>
+          <div class="animate_top">
+            <p>&copy; 2024 Berkat Auto. All rights reserved</p>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+      </div>
+    </footer>
+
+    <!-- ===== Footer End ===== -->
+    <!-- ===== JS ===== -->
+    <script type="module" src="http://cdn.jsdelivr.net/gh/berkatauto/berkat-webjs/bundle.js"></script>
+    <script type="module" src="http://cdn.jsdelivr.net/gh/berkatauto/berkat-webjs/getlastnew.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+  <!-- <script defer src="./js/bundle.js"></script></body>
+  <script src="./js/getlastnew.js" type="module"></script> -->
+  
+  <!-- ====== End Of JS ======= -->
+</html>

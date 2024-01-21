@@ -68,10 +68,3 @@ Masukkan codingan kedalam notepad. Save codingan tersebut sebagai file .reg lalu
 Tampilan aplikasi akan terlihat seperti berikut:
 
 ![Git Bash](../../../img/tutorial/sub_gitbash%20(4).png)
-
-## B.	REKOMENDASI APLIKASI PEMBANGUN LAINNYA
-Selain beberapa aplikasi yang dijelaskan tadi, adapun beberapa aplikasi yang dapat kalian instal untuk digunakan dalam pembuatan aplikasi website ini:
-
-1.	[XAMPP](https://www.apachefriends.org/download.html), digunakan untuk menjalankan website secara lokal.
-
-2.	[GoLand](https://www.jetbrains.com/go/), aplikasi IDE seperti VSCode namun difokuskan untuk Bahasa pemrograma Golang.
