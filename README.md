@@ -2,7 +2,7 @@
 
 ## Sinopsis Naskah
 
-Buku "Tutorial Membuat Aplikasi Website Pendidikan Otomotif" ini memberikan pemahaman tentang pembuatan website berteknologi Golang untuk mendukung pemahaman yang lebih mendalam tentang teknologi tersebut. Dengan menggunakan Golang sebagai bahasa pemrograman backend, kalian dapat menciptakan aplikasi dasar dengan kinerja yang tinggi, kehandalan, dan kemampuan untuk mengelola beban kerja dengan efisien. Meskipun demikian, penggunaan JavaScript pada sisi frontend memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif. Kombinasi kedua teknologi ini menjadi landasan untuk membangun pengalaman belajar yang kuat, yang menggabungkan komponen fungsionalitas backend yang canggih dengan responsivitas antarmuka pengguna yang menarik.
+Buku "Tutorial Membangun Aplikasi Website Pendidikan Otomotif" ini memberikan pemahaman tentang pembuatan website berteknologi Golang untuk mendukung pemahaman yang lebih mendalam tentang teknologi tersebut. Dengan menggunakan Golang sebagai bahasa pemrograman backend, kalian dapat menciptakan aplikasi dasar dengan kinerja yang tinggi, kehandalan, dan kemampuan untuk mengelola beban kerja dengan efisien. Meskipun demikian, penggunaan JavaScript pada sisi frontend memungkinkan pembuatan antarmuka pengguna yang dinamis dan interaktif. Kombinasi kedua teknologi ini menjadi landasan untuk membangun pengalaman belajar yang kuat, yang menggabungkan komponen fungsionalitas backend yang canggih dengan responsivitas antarmuka pengguna yang menarik.
 
 ![Cover](./img/cover.png)
 
