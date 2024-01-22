@@ -10,18 +10,18 @@ Buku "Tutorial Membuat Aplikasi Website Pendidikan Otomotif" ini memberikan pema
 
 ### Penulis 1 : Adam Ghafara
 
-![Profile Adam](./)
+<img src="./img/profile/Adam.JPG" height="250">
 
 Lahir di Bandung, pada 28 September 2001. Menempuh pendidikan tingkat dasar hingga Madrasah Aliyah di Bandung dan pernah menjadi bagian dari Organisasi Siswa di Madrasah Aliyah. Kini, sedang melanjutkan pendidikannya di perguruan tinggi Universitas Logistik dan Bisnis Internasional (ULBI) di Program Studi DIV Teknik Informatika. Memiliki minat dan pengalaman di bidang komputer dari Madrasah hingga sekarang.
 
 ### Rachma Nurhaliza Parindra
 
-<img src="./img/profile/IMG_20230321_202325_051.png" height="250">
+<img src="./img/profile/Rahma.png" height="250">
 
 Lahir di Karawang, pada 26 Mei 2003. Menempuh pendidikan tingkat dasar hingga Madrasah Aliyah di Karawang dan pernah menjadi bagian organisasi mahasiswa di Madrasah Tsanawiyah. Saat ini sedang melanjutkan pendidikannya di Perguruan Tinggi Universitas Logistik dan Bisnis Internasional (ULBI) di Program Studi DIV Teknik Informatika. 
 
 ### Roni Habibi
 
-<img src="" height="250">
+<img src="./img/profile/Pa Roni Habibie.png" height="250">
 
 Dosen fakultas Teknik Informatika pada Universitas Logistik dan Bisnis Internasional (ULBI). Memiliki riwayat pendidikan S1 Teknik Informatika pada Universitas Nasional Pasim (UNAS PASIM). S2 Teknik Informatika pada Insitut Teknologi Bandung (ITB). S3 Teknik Informatika pada Universitas Pendidikan Indonesia (UPI). Saat ini menjabat juga sebagai Editor Penerbit PT. Bukupedia.

@@ -9,15 +9,15 @@ import (
 )
 
 func init() {
-	functions.HTTP("HelloPostArticle", HelloPostArticle)
+	functions.HTTP("baSignUp", HelloSignUp)
 }
 
-func HelloPostArticle(w http.ResponseWriter, r *http.Request) {
+func HelloSignUp(w http.ResponseWriter, r *http.Request) {
 	// Set header Access-Control-Allow-Origin untuk mengizinkan permintaan dari domain yang spesifik.
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 
 	// Set header Access-Control-Allow-Methods untuk mengizinkan metode HTTP yang diizinkan.
-	w.Header().Set("Access-Control-Allow-Methods", "POST")
+	w.Header().Set("Access-Control-Allow-Methods", "GET, POST")
 
 	// Set header Access-Control-Allow-Headers untuk mengizinkan header yang diizinkan dalam permintaan.
 	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
@@ -29,6 +29,10 @@ func HelloPostArticle(w http.ResponseWriter, r *http.Request) {
 
 	// Tulis respons Anda ke Writer seperti yang Anda lakukan sebelumnya.
 	w.Header().Set("Access-Control-Allow-Origin", "*")
-	response := berkatbepkg.GCFPostArticle("MONGOSTRING", "berkatauto", "articleSet", r)
+	response := berkatbepkg.GCFCreateHandler("MONGOSTRING", "berkatauto", "userLogin", r)
 	fmt.Fprintf(w, response)
+}
+
+func GetToken(r *http.Request) string {
+	return r.Header.Get("Authorization")
 }
