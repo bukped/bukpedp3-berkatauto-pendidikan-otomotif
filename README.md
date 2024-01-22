@@ -1,4 +1,4 @@
-# Tutorial Membuat Aplikasi Website Pendidikan Otomotif
+# Tutorial Membangun Aplikasi Website Pendidikan Otomotif
 
 ## Sinopsis Naskah
 
